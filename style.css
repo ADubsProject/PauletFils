@@ -1,0 +1,448 @@
+
+/*Changer la police des pages*/
+
+body, h1, h2, h3, h4, p{
+        font-family: "Roboto", serif;
+        font-weight: 100;
+        font-style: normal;   
+}
+
+/*Aligner le Menu avec le logo et le button*/
+
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a:hover{
+    color: #FF5929;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+}
+.nav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 50px;
+    
+}
+
+header button{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    background-color: #FF5929;
+    border: none;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding :20px;
+}
+
+/*Adapter la taille du hero et mettre le titre dessus*/
+
+.hero{
+    width: 375px;
+    position: relative;
+    
+  }
+
+img{
+    width: 370px;
+    
+}
+
+h1{
+    position:absolute;
+    bottom: 250px;
+    left: 10px;
+    color: white;
+    margin: 10px;
+}
+
+/*Le bloc Appelez nous en colonne*/
+
+.Appelez-nous{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+/*Le bloc Commencerneligne en colonne*/
+    
+}
+.Commencerenligne{
+    background-color: #FF5929;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+/*Le bloc Introduction en colonne avec le button*/
+
+.introduction{
+    background-color: #FF5929;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+}
+.introduction h2{
+    color: white;
+    padding-top: 5px;
+}
+.introduction button{
+    background-color: black;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+    padding: 5px;   
+}
+
+/*Le bloc Nos services en colonne avec les buttons*/
+
+.Nosservices{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.Nosservices button{
+    background-color: #FF5929;
+    border: none;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.hero2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+}
+
+.hero2 h2{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+/*Les trois petits blocs en colonnes et collés*/
+
+.firstbloc{
+    width: 375px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1px;
+}
+.secondbloc{
+    width: 375px;
+    background-color:#FF5929;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.thirdbloc{
+    width: 375px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3)
+
+}
+
+/*La partie Avis en colonne et centrer*/
+
+.avis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+/*Les différents logos en colonne centré*/
+
+.logos img{
+    width: 200px;
+}
+.logos{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Le formulaire de contact*/
+
+.formulairedecontact{
+    width: 375px;
+    background-color: #FF5929;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.formulairedecontact h2{
+    color: white;
+    
+}
+.formulairedecontact button{
+    background-color: black;
+    color: white;
+    margin-top: 10px;  
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*La partie footer*/
+
+footer img{
+    width: 100px;
+}
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+svg{
+    width: 15px;
+    fill: white;
+    margin-top: 5px;
+}
+
+/*il s'agit des modifications sur la page Nos conseils et A propos*/
+
+
+.pauletfils h1{
+    color: black;
+}
+.faitesuneliste{
+  background-color: black;
+  color: white;
+  width: 375px;
+  
+   
+}
+.débarassezvous{
+    background-color: #FF5929 ;
+    color: black;
+    
+}
+.equipezvous{
+    background-color: black;
+    color: white;
+}
+.commentorganiser{
+    background-color:#FF5929;
+    color:black
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.organiser{
+    background-color: black;
+    color: white;
+    width: 375px;
+}
+.emballer{
+    background-color: white;
+}
+.déménager{
+    background-color: lightgray;    
+}
+.déballer{
+    background-color: #FF5929;
+}
+.garantie img{
+    position: relative;
+}
+.garantie h2{
+    position: relative;
+}
+
+/*La partie desktop*/
+
+@media (min-width: 768px) {
+
+/*Ajuster la taille du menu*/
+
+    .nav {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 50px;
+        width: 100%;
+    }
+
+    .nav ul {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .nav ul li {
+        margin: 0 15px; 
+    }
+
+    .nav ul li a {
+        font-size: 1.5rem;
+    }
+
+    
+    button {
+        padding: 15px 30px; 
+        font-size: 1.1rem; 
+    }
+
+    /* Ajuster la taille de la section hero */
+    .hero {
+        text-align: center;
+        width: 100%;
+    }
+    .hero img{
+        width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+        display:flex;
+        flex: row;
+        text-align: center;
+        align-items: center;
+    }
+
+/*Ajuster la taille du bloc Intro*/
+
+    .blocintro{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .introduction{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .imageintroduction{
+        width: 50%;
+    }
+
+/*Mettre le bloc nos services en Grid*/
+
+    .Nosservices{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:20px
+    }
+    .Nosservices img{
+        width: 100%;
+    }
+
+/*Ajuster la taille du hero2*/
+
+    .hero2 img{
+        text-align: center;
+        width: 100%;
+    }
+    .hero2 h2{
+        font-size: 3rem;
+    }
+    .threeblocs{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+/*Ajuster la taille de la partie Avis*/
+
+    .avis h2{
+        font-size: 3rem;
+    }
+    .avis p{
+        font-size: 2rem;
+    }
+
+/*Mettre en ligne les différents logos*/
+
+    .logos{
+        display:flex ;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+/*Agrandir le formulaire de contact*/
+
+    .formulairedecontact{
+        width: 100%;
+        
+    }
+
+/*Mettre en ligne le footer*/
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
